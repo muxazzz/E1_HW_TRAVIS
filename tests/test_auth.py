@@ -3,6 +3,9 @@ import unittest
 import game
 import pytest
 
+def setup():
+    print ("Setup test")
+    
 class TestGetLetter(unittest.TestCase):
     def test_exists(self):
         result_letter = game.letter
