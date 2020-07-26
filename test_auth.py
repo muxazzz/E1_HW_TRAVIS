@@ -15,6 +15,9 @@ class TestGetLetter(unittest.TestCase):
 def test_get_all_tasks_not_empty():
     all_tasks = game.letter
     assert True
+    
+def setup_function(function):
+    print("setting up", function)
 
 if __name__ == '__main__':
     unittest.main()
